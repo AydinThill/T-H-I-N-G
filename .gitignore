@@ -13,7 +13,7 @@ UserSettings/
 MemoryCaptures/
 sysinfo/
 
-# Unity cache
+# --- IDE / Editor junk ---
 .vs/
 .idea/
 .vscode/
@@ -23,31 +23,15 @@ sysinfo/
 *.pidb
 *.booproj
 *.svd
-
-# Rider / VS Code / JetBrains / others
-*.DotSettings*
 *.orig
+*.DotSettings*
 
-# --- FMOD specific ignores ---
-# FMOD cache and temporary build data
-**/Build/.cache/
-**/BuildCache/
-**/Cache/
-**/.cache/
-
-# FMOD banks ARE tracked, but via Git LFS (see .gitattributes)
-
-# Ignore FMOD Studio local workspace
-**/.workspace
-
-# --- DSP plugin build dirs ---
-# Ignore non-final build directories (cmake, obj, intermediate)
+# --- DSP plugin build directories ---
+**/cmake-build*/
 **/bin/
 **/intermediate/
-**/cmake-build*/
 
-# --- Android / Quest specific ---
-.gradle/
+# --- Android / Quest ---
 .gradle/
 build/
 *.apk
@@ -61,13 +45,50 @@ local.properties
 .DS_Store
 Thumbs.db
 
-# --- Do NOT ignore these directories ---
+
+### ================================
+### FMOD RECOMMENDATIONS (MERGED)
+### ================================
+
+# 1. NEVER ignore FMOD DLLs (we must include them)
+!/[Aa]ssets/Plugins/FMOD/**/lib/*
+
+# 2. DON'T ignore FMOD gizmos or editor resources
+!/[Aa]ssets/Gizmos/FMOD/*
+!/[Aa]ssets/Editor Default Resources/FMOD/*
+
+# 3. IGNORE FMOD Cache (local only)
+[Aa]ssets/Plugins/FMOD/Cache/*
+
+# 4. IGNORE built banks in StreamingAssets
+[Aa]ssets/StreamingAssets/**/*.bank
+[Aa]ssets/StreamingAssets/**/*.bank.meta
+
+# 5. Ignore FMOD editor log
+fmod_editor.log
+
+
+### ================================
+### Unity Project (keep these)
+### ================================
 !Assets/
 !Packages/
 !ProjectSettings/
 
-# --- Allow plugin folders (we track plugin binaries through LFS) ---
+# But DO ignore Unity user-specific ProjectSettings content (these are local)
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/UnityConnectSettings.asset
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/QualitySettings.asset
+ProjectSettings/TimeManager.asset
+# (Unity regenerates these; keep rest of folder tracked)
+
+
+### ================================
+### Plugin folders (we track DSP plugin binaries)
+### ================================
 !Assets/Plugins/
-!Assets/Plugins/Android/
 !Assets/Plugins/x86_64/
 !Assets/Plugins/macOS/
+!Assets/Plugins/Android/
