@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{e804dc0c-9873-4a94-aa88-81713f666ef9}">
+		<property name="name">
+			<value>Kick Pitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{97e875e2-583e-49ef-b967-d8673ac92018}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{71f2d398-7cb6-4d32-b22c-cc7136310cb4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{71f2d398-7cb6-4d32-b22c-cc7136310cb4}">
+		<property name="maximum">
+			<value>12</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -57,6 +57,9 @@ Thumbs.db
 !/[Aa]ssets/Gizmos/FMOD/*
 !/[Aa]ssets/Editor Default Resources/FMOD/*
 
+# Don´t ignore fmod banks
+!Assets/StreamingAssets/FMOD/**
+
 # 3. IGNORE FMOD Cache (local only)
 [Aa]ssets/Plugins/FMOD/Cache/*
 
