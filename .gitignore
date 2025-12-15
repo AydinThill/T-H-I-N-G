@@ -67,6 +67,9 @@ Thumbs.db
 [Aa]ssets/StreamingAssets/**/*.bank
 [Aa]ssets/StreamingAssets/**/*.bank.meta
 
+# Do not ignotr banks created here:
+![Ff]MOD\T-H-I-N-G\Build
+
 # 5. Ignore FMOD editor log
 fmod_editor.log
 
