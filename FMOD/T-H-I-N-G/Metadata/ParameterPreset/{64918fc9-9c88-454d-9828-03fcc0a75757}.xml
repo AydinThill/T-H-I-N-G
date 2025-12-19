@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{64918fc9-9c88-454d-9828-03fcc0a75757}">
+		<property name="name">
+			<value>form_shift</value>
+		</property>
+		<relationship name="folder">
+			<destination>{97e875e2-583e-49ef-b967-d8673ac92018}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4dd4d6a5-2fc0-4380-90d3-bee9d7ef81cc}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4dd4d6a5-2fc0-4380-90d3-bee9d7ef81cc}">
+		<property name="minimum">
+			<value>0.5</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>

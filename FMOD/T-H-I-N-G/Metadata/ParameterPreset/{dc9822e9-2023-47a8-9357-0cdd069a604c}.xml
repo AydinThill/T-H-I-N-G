@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{dc9822e9-2023-47a8-9357-0cdd069a604c}">
+		<property name="name">
+			<value>freq_hz</value>
+		</property>
+		<relationship name="folder">
+			<destination>{97e875e2-583e-49ef-b967-d8673ac92018}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{57140f1d-d292-47f2-ab8a-9280ee7b3272}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{57140f1d-d292-47f2-ab8a-9280ee7b3272}">
+		<property name="minimum">
+			<value>20</value>
+		</property>
+		<property name="maximum">
+			<value>2000</value>
+		</property>
+		<property name="initialValue">
+			<value>150</value>
+		</property>
+	</object>
+</objects>
