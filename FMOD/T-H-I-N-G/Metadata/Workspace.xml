@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{24adf45a-0646-4ee8-abfc-d60902d385c4}">
-		<property name="builtBanksOutputDirectory">
-			<value>../../T-H-I-N-G/Assets/StreamingAssets/FMOD</value>
-		</property>
+		<property name="builtBanksOutputDirectory" />
 		<property name="builtBanksMirrorBrowserFolderHierarchy">
 			<value>true</value>
 		</property>
