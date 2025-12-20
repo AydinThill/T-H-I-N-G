@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{2e06c957-651d-42b5-889a-63a7bf4f0586}">
+		<property name="assetPath">
+			<value>Crappy_Piano/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3795da33-4999-4b25-bd0b-c6b2729d8edc}</destination>
+		</relationship>
+	</object>
+</objects>

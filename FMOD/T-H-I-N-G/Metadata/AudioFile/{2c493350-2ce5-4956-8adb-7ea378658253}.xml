@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2c493350-2ce5-4956-8adb-7ea378658253}">
+		<property name="assetPath">
+			<value>Crappy_Piano/Crappy_Piano_3.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.2214965986394559</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3795da33-4999-4b25-bd0b-c6b2729d8edc}</destination>
+		</relationship>
+	</object>
+</objects>

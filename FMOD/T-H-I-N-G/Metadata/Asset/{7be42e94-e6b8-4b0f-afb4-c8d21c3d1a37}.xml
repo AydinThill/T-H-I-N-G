@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{7be42e94-e6b8-4b0f-afb4-c8d21c3d1a37}">
+		<property name="assetPath">
+			<value>Water_Whip/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3795da33-4999-4b25-bd0b-c6b2729d8edc}</destination>
+		</relationship>
+	</object>
+</objects>

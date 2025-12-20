@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3dffd083-9c75-463c-bc5b-3d8154f44eea}">
+		<property name="assetPath">
+			<value>Weird_Voice/Weird_Voice_14.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5604081632653062</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3795da33-4999-4b25-bd0b-c6b2729d8edc}</destination>
+		</relationship>
+	</object>
+</objects>

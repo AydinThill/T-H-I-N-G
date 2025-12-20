@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{0d50a5d3-e920-4755-8d5a-933c39c32f96}">
+		<property name="name">
+			<value>Custom_DSPs</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b7b1783b-f4f3-461b-8ad5-b7efc77e09d2}</destination>
+		</relationship>
+	</object>
+</objects>

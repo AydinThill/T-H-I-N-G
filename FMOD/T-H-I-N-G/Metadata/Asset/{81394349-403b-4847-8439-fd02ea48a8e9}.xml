@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{81394349-403b-4847-8439-fd02ea48a8e9}">
+		<property name="assetPath">
+			<value>Weird_Voice/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3795da33-4999-4b25-bd0b-c6b2729d8edc}</destination>
+		</relationship>
+	</object>
+</objects>
